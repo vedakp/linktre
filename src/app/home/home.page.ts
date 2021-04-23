@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  links = [
+    {name:'simplystart.in',link:'https://www.simplystart.in/'},
+    {name:'facebook',link:'https://www.facebook.com/search/top?q=simplystart'},
+    {name:'instagram',link:'https://www.instagram.com/simplystart.in/'},
+  ]
   constructor() {}
 
 }
