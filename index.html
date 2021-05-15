@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Simplystart</title>
+    <title>Links Simplystart</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <link rel="icon" href="https://www.simplystart.in/wp-content/uploads/2020/10/cropped-favicon-32x32.jpg"
@@ -28,20 +28,19 @@
                 m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-179587944-1', 'auto');
-        ga('send', {
-            hitType: 'pageview',
-            page: location.pathname
-        });
+        function boadyReady(){
+            ga('create', 'UA-179587944-1', 'auto');
+            ga('send', 'pageview', location.pathname);
+        }
     </script>
     <!-- End Google Analytics -->
 </head>
 
-<body>
+<body onload="boadyReady()">
     <div class="container">
         <section class="section" style="height:35vh;">
             <div class="image-div">
-                <img src="https://www.simplystart.in/wp-content/uploads/2020/10/cropped-Simplystart-logo.png" />
+                <img src="https://www.simplystart.in/wp-content/uploads/2021/05/cropped-simplystart-new-logo-blue-text-png-2048x561.png" />
             </div>
             <h3><strong>A creative digital agency</strong></h3>
         </section>
@@ -52,8 +51,8 @@
                         class="fab fa-instagram"></i><span>Instagram</span></button></a>
             <a href="https://www.facebook.com/simplystart.in"><button class="rounded-corners"><i
                         class="fab fa-facebook-f"></i><span>Facebook</span></button></a>
-            <a href="https://bit.ly/3tnHG6q"><button class="rounded-corners"><i class="fas fa-mobile"></i><span>Demo
-                        e-com app</span></button></a>
+            <a href="https://links.simplystart.in/apps-showcase.html"><button class="rounded-corners"><i class="fas fa-mobile"></i><span>
+                E-com app</span></button></a>
         </section>
     </div>
 

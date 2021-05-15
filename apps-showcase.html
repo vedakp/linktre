@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <title>Links Simplystart</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="icon" href="https://www.simplystart.in/wp-content/uploads/2020/10/cropped-favicon-32x32.jpg"
+        sizes="32x32" />
+    <link rel="icon" href="https://www.simplystart.in/wp-content/uploads/2020/10/cropped-favicon-192x192.jpg"
+        sizes="192x192" />
+    <link rel="apple-touch-icon"
+        href="https://www.simplystart.in/wp-content/uploads/2020/10/cropped-favicon-180x180.jpg" />
+    <meta name="msapplication-TileImage"
+        content="https://www.simplystart.in/wp-content/uploads/2020/10/cropped-favicon-270x270.jpg" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5f0c245c7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="our.css">
+
+    <style>
+        h3 {
+            margin: 15px;
+        }
+
+        .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    border-radius: 20px;
+}
+
+img {
+    margin-top: 0px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: var(--color-btn);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.section-a {
+    /* display: flex !important;
+    justify-content: space-between; */
+
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: var(--color-btn);
+}
+
+.back-btn {
+    text-decoration: none;
+    font-size: 50px;
+    color: var(--color-btn);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    align-items: center;
+}
+
+.grid-item {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 10px; */
+    font-size: 30px;
+    text-align: center;
+}
+
+        @media only screen and (max-width: 700px) {
+
+            .container {
+                background-color: #fff;
+                min-height: 120vh;
+                width: 100vw;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                grid-gap: 20px;
+                border-radius: 20px;
+            }
+
+            section {
+                margin-bottom: 10px;
+            }
+
+        }
+    </style>
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        function boadyReady() {
+            ga('create', 'UA-179587944-1', 'auto');
+            ga('send', 'pageview', location.pathname);
+        }
+    </script>
+    <!-- End Google Analytics -->
+</head>
+
+<body onload="boadyReady()">
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item"> <a class="back-btn" href="https://links.simplystart.in/index.html"
+                    class="previous round">&#8249;</a></div>
+            <div class="grid-item">App List</div>
+        </div>
+        <section class="section" style="height:40vh;">
+            <!-- <img class="rounded-corners full-width" src="./simply-grocery.png"> -->
+            <div class="card">
+                <img src="./simply-grocery.png" alt="Denim Jeans" style="width:100%; border-radius: 20px 20px 0px 0px;">
+                <h3>Grocery Simple Theme</h3>
+                <!-- <p>Some text about the jeans..</p> -->
+                <a href="https://bit.ly/3tnHG6q"><button>Download Demo</button></a>
+            </div>
+        </section>
+        <section class="section" style="height:40vh;">
+            <!-- <img class="rounded-corners full-width" src="./simplymart.png"> -->
+            <div class="card">
+                <img src="./simplymart.png" alt="Denim Jeans" style="width:100%; border-radius: 20px 20px 0px 0px;">
+                <h3>Modern Theme</h3>
+                <!-- <p>Some text about the jeans..</p> -->
+                <a href="https://bit.ly/3brSZn6"><button>Download Demo</button></a>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

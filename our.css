@@ -1,5 +1,10 @@
+:root {
+    --color-primary:#EFCD54;
+    --color-btn : #212A4D;
+}
+
 body{
-    background-color:#EBC954;
+    background-color: var(--color-primary);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,11 +23,12 @@ body{
 
 .image-div{
     height:25vh;
+  
 }
 
 img{
     width: 225px;
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 .section{
@@ -63,6 +69,11 @@ span{
     border-radius: 20px;
 }
 
+.full-width{
+    width:90%;
+    margin:10px;
+}
+
 @media only screen and (max-width: 700px) {
 
     .container{
@@ -73,5 +84,13 @@ span{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 20px;
         border-radius: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 0px;
+        align-items: center;
+        margin-bottom: -35px;
     }
 }
